@@ -1,0 +1,22 @@
+{
+  "name": "mmall-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wen-sr/mmall-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wen-sr/mmall-fe/issues"
+  },
+  "homepage": "https://github.com/wen-sr/mmall-fe#readme",
+  "devDependencies": {
+    "webpack": "^1.15.0"
+  }
+}
