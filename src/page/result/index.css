@@ -1,0 +1,27 @@
+/*
+* @Author: wen-sr
+* @Date:   2017-08-19 22:36:47
+* @Last Modified by:   wen-sr
+* @Last Modified time: 2017-08-19 23:06:27
+*/
+.page-wrap{
+	background-color: #fff;
+	text-align: center;
+	padding:100px 0; 
+
+}
+.result-con{
+	display: none;
+}
+.page-wrap .result-con .result-content{
+	margin-top:20px;
+}
+.page-wrap .result-con .result-content a{
+	margin : 0 5px;
+	padding:5px 10px;
+	height:40px;
+	line-height: 20px;
+	/*width:100px;*/
+	border:1px solid #888;
+
+}

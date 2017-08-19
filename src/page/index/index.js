@@ -2,15 +2,20 @@
 * @Author: wen-sr
 * @Date:   2017-08-18 21:36:09
 * @Last Modified by:   wen-sr
-* @Last Modified time: 2017-08-19 16:21:25
+* @Last Modified time: 2017-08-19 22:33:28
 */
 // require('../../util/js/base.js');
 // require('../../page/index/index.css');
 // require('page/common/nav-simple/index.js');
 require('page/common/nav/index.js');
 require('page/common/header/index.js');
+var navSide = require('page/common/nav-side/index.js');
 var _mm = require('util/mm.js');
 
+
+navSide.init({
+	name : 'about'
+});
 // $("body").html("wen-sr");
 
 // _mm.request({

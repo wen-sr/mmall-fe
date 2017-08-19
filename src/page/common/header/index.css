@@ -2,7 +2,7 @@
 * @Author: wen-sr
 * @Date:   2017-08-19 16:09:27
 * @Last Modified by:   wen-sr
-* @Last Modified time: 2017-08-19 16:32:41
+* @Last Modified time: 2017-08-19 19:56:45
 */
 .header {
 	
@@ -27,8 +27,8 @@
 	border:2px solid #c60023;
 }
 .header .search-con .search-btn{
-	position: absolute;
+	position: absolute;/*去掉换行带来的空格，以上一个元素的末尾作为起始位置*/
 	height:44px;
 	line-height: 44px;
-
+	border-radius: 0px;
 }

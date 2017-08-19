@@ -2,7 +2,7 @@
 * @Author: wen-sr
 * @Date:   2017-08-19 14:31:43
 * @Last Modified by:   wen-sr
-* @Last Modified time: 2017-08-19 15:31:20
+* @Last Modified time: 2017-08-19 17:06:39
 */
 /*css reset*/
 *{
@@ -80,14 +80,14 @@ dd{margin:0;padding:0;text-align: left;}
 	line-height: 40px;
 	vertical-align: middle;
 	border:none;
-	background: #444;
+	background: #c80023;
 	font-size: 17px;
 	font-weight: bold;
 	color:#fff;
 	outline: none;
 	cursor:pointer;
 	text-decoration: none;
-	border-radius: 8px;
+	border-radius: 5px;
 }
 .btn-mini {
 	height:25px;

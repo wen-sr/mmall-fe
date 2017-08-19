@@ -2,7 +2,7 @@
 * @Author: wen-sr
 * @Date:   2017-08-18 21:33:47
 * @Last Modified by:   wen-sr
-* @Last Modified time: 2017-08-19 13:30:13
+* @Last Modified time: 2017-08-19 22:39:10
 */
 //加载webpack对象，plugins里面使用
 var webpack 			= require("webpack");
@@ -13,11 +13,12 @@ var HtmlWebpackPlugin 	= require('html-webpack-plugin');
 // 环境变量配置，dev / online
 var WEBPACK_ENV         = process.env.WEBPACK_ENV || 'dev';
 
-var getHtmlConfig = function(name){
+var getHtmlConfig = function(name,title){
 	return {
 		template : './src/view/' + name + '.html',
 		filename : 'view/'+ name + '.html',
 		inject : true,
+        title : title,
 		hash : true,
 		chunks : ['common', name]
 	}
@@ -27,6 +28,7 @@ var config = {
     	"common": ["./src/page/common/base.js"],
     	"index" : ["./src/page/index/index.js"],
     	"admin" : ["./src/page/admin/admin.js"],
+        "result" : ["./src/page/result/index.js"],
     },
     output:{
     	path:"./dist",
@@ -47,8 +49,7 @@ var config = {
     },
     module : {
     	loaders : [{
-    		test : /\.css$/,
-    		loader : ExtractTextPlugin.extract("style-loader","css-loader")
+    		test : /\.css$/,loader : ExtractTextPlugin.extract("style-loader","css-loader")
     	},{ 
     		test: /\.(gif|png|jpg|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=100&name=resource/[name].[ext]' 
     	},{ 
@@ -64,8 +65,8 @@ var config = {
         // 把css单独打包到文件里
         new ExtractTextPlugin("css/[name].bundle.css"),
         // html模板的处理
-        new HtmlWebpackPlugin(getHtmlConfig('index')),
-        new HtmlWebpackPlugin(getHtmlConfig('admin')),
+        new HtmlWebpackPlugin(getHtmlConfig('index','首页')),
+        new HtmlWebpackPlugin(getHtmlConfig('result','操作结果')),
     ]
 };
 
