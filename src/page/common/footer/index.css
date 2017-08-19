@@ -1,0 +1,22 @@
+/*
+* @Author: wen-sr
+* @Date:   2017-08-19 16:00:33
+* @Last Modified by:   wen-sr
+* @Last Modified time: 2017-08-19 16:05:03
+*/
+.footer{
+	padding-bottom: 10px;
+}
+.links {
+	text-align: center;
+	color:#666;
+	line-height: 30px;
+}
+.footer .links .link{
+	padding : 0 10px;
+}
+.copyright {
+	text-align: center;
+	color:#666;
+	line-height: 30px;
+}

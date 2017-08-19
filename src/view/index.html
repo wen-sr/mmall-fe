@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<%= require('html-loader!./layout/head-common.html') %>
 	<title>index</title>
 </head>
 <body>
-	<script type="text/javascript" src="../../util/js/jquery.min.js"></script>
+	<%= require('html-loader!./layout/nav.html') %>
+	<%= require('html-loader!./layout/header.html') %>
+	<!-- <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> -->
+	<%= require('html-loader!./layout/footer.html') %>
 </body>
 
-<!-- <script type="text/javascript" src="../../../dist/js/index.bundle.js"></script> -->
 </html>

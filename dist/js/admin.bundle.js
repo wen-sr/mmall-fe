@@ -2,6 +2,13 @@ webpackJsonp([0],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__(1);
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
 	/*
 	* @Author: wen-sr
 	* @Date:   2017-08-18 21:36:27
@@ -9,7 +16,7 @@ webpackJsonp([0],[
 	* @Last Modified time: 2017-08-18 22:23:26
 	*/
 
-	__webpack_require__(1);
+	__webpack_require__(2);
 	function f_index(){
 		console.log("admin");
 	}
