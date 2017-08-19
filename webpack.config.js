@@ -2,7 +2,7 @@
 * @Author: wen-sr
 * @Date:   2017-08-18 21:33:47
 * @Last Modified by:   wen-sr
-* @Last Modified time: 2017-08-19 22:39:10
+* @Last Modified time: 2017-08-19 23:30:50
 */
 //加载webpack对象，plugins里面使用
 var webpack 			= require("webpack");
@@ -27,7 +27,7 @@ var config = {
     entry:{
     	"common": ["./src/page/common/base.js"],
     	"index" : ["./src/page/index/index.js"],
-    	"admin" : ["./src/page/admin/admin.js"],
+    	"user-login" : ["./src/page/user-login/index.js"],
         "result" : ["./src/page/result/index.js"],
     },
     output:{
@@ -67,6 +67,7 @@ var config = {
         // html模板的处理
         new HtmlWebpackPlugin(getHtmlConfig('index','首页')),
         new HtmlWebpackPlugin(getHtmlConfig('result','操作结果')),
+        new HtmlWebpackPlugin(getHtmlConfig('user-login','操作结果')),
     ]
 };
 

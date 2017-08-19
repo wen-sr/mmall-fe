@@ -1,0 +1,63 @@
+/*
+* @Author: wen-sr
+* @Date:   2017-08-19 23:24:00
+* @Last Modified by:   wen-sr
+* @Last Modified time: 2017-08-19 23:58:59
+*/
+.page-wrap{
+	background: #e72955;	
+	padding:40px 0;
+}
+
+.user-con{
+	margin:0 auto;
+	width:400px;
+	background: #fff;
+}
+.user-title{
+	text-align: center;
+	padding:10px 0;
+	font-size:18px;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+	color:#777;
+}
+
+.user-box{
+	padding:20px;
+}
+.user-box .error-item{
+	position:relative;
+	padding:4px 0 4px 40px;
+	margin-bottom: 10px;
+	color:red;
+	border:red;
+	background: #fde9e9;
+} 
+.user-box .error-item .error-icon {
+	position: absolute;
+	left:14px;
+	top:50%;
+	font-size: 14px;
+	margin-top: -7px;
+}
+
+.user-con .user-item {
+	position: relative;
+	margin-bottom: 20px;
+	
+
+}
+.user-con .user-item .user-label{
+	position: absolute;
+	left:0;
+	top:0;
+	bottom: 0;
+	width:40px;
+	line-height: 36px;
+	height:18px;
+	background: #f3f3f3;
+	font-size: 18px;
+	text-align: center;
+	color:#d2d2d2;
+}
