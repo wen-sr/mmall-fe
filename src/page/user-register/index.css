@@ -1,0 +1,90 @@
+/*
+* @Author: wen-sr
+* @Date:   2017-08-20 13:22:29
+* @Last Modified by:   wen-sr
+* @Last Modified time: 2017-08-20 14:53:49
+*/
+.page-wrap{
+	background: #e72955;
+}
+.user-con{
+	background: #fff;
+	width:400px;
+	margin:40px auto;
+}
+.user-con .user-title{
+	height:30px;
+	padding:10px 0;
+	font-size:18px;
+	font-weight: bold;
+	text-align: center;
+	color:#555;
+	border-bottom: 1px solid #aaa;
+}
+.user-con .user-box{
+	padding:10px 20px;
+}
+.user-con .user-box .error-item{
+	position: relative;
+	color:red;
+	height:40px;
+	background: #fde9e9;
+	font-size: 14px;
+	border:1px solid red;
+	display: none;
+}
+.user-con .user-box .error-item .error-icon{
+	position: absolute;
+	top:50%;
+	left:20px;
+	margin-top: -7px;
+}
+.user-con .user-box .error-item .error-msg{
+	position: absolute;
+	left:40px;
+	line-height: 40px;
+}
+.user-con .user-box .user-item{
+	position: relative;
+	padding:10px 0;
+	margin:20px 0;
+	height:16px;
+	/*border:1px solid #bbb;*/
+}
+.user-con .user-box .user-item .user-label{
+	position:absolute;
+	top:0;
+	left:0;
+	text-align: center;
+	width:40px;
+	height:38px;
+	line-height: 38px;
+	font-size: 14px;
+	background: #bdbdbd;
+	border:1px solid #888;
+}
+.user-item .user-content{
+	position: absolute;
+	width:308px;
+	height:38px;
+	top:0px;
+	padding-left:10px;
+	left:40px;
+	border:1px solid #bbb;
+	border-left: none;
+}
+.user-item .btn {
+	padding:0;
+	margin-top:-10px;
+	width:100%;
+	height:38px;
+	text-align: center;
+	border-radius: 0;
+}
+.link-item{
+	height: 10px;
+	padding:0 0 10px 0;
+}
+.link-item a{
+	color:#444;
+}
